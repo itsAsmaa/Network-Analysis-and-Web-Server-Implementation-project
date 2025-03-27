@@ -99,12 +99,4 @@ This project is a multifaceted exploration bridging networking concepts and web 
 
 This project helped us better understand the core concepts of computer networks and socket programming while giving us hands-on experience in web server implementation. It combined both networking tools and web development, allowing us to explore practical aspects of data transmission and web communication.
 
----
 
-## Contact
-
-For any inquiries or issues regarding this project, feel free to contact the team via email:
-
-- **Sara Al-lahaleh**: sara@example.com
-- **Malak Ammar**: malak@example.com
-- **Asmaa Fares**: asmaa@example.com
