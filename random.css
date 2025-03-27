@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&display=swap');
+
+body {
+    background-color: #313340;
+    font-family: 'kalnia';
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    margin-top: 150px;
+    text-align: center;
+}
+
+#part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#img1 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#text1 {
+    padding: auto;
+    text-align: left;
+}
+
+#vidPart {
+    padding-bottom: 50px;
+}

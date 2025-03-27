@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #181e35;
+    font-family: 'Kalnia', serif;
+}
+
+.container { /*class styling*/
+    margin: 20px 40px;
+    color: white;
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.heading {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+#L1 { /*id styling*/
+    color: white;
+    font-size: 30px;
+    align-content: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.159);
+}
+
+    #L1 span {
+        color: #33DDFF;
+    }
+
+.heading span {
+    font-style: italic;
+    font-size: 30px;
+}
+
+#p2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+}
+
+#p3 {
+    flex-basis: 260px;
+}
+
+#m1 {
+    height: 300px;
+    width: 250px;
+    border-radius: 30%;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+#horizantal-line {
+    width: 1510px;
+    height: 2px;
+    background-color: silver;
+}
+
+.user-name {
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.profile h5 {
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: #ccc;
+}
+
+.profile p {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.container .profiles {
+    background: #181e35;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+}
+
+
+.box {
+    font-size: medium;
+    font-weight: bold;
+    width: 94%;
+    color: white;
+    padding: 20px;
+    background-color: #ffffff3b;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.box1 {
+    font-size: medium;
+    font-weight: bold;
+    width: 90%;
+    color: white;
+    padding: 20px;
+    background-color: #ffffff3b;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+@media only screen and (max-width: 1150px) {
+    #p2 {
+        flex-direction: column;
+    }
+
+    #p2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile p {
+        text-align: center;
+        margin: 20px 60px 80px 60px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .heading {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+    }
+
+    #L1 {
+        text-align: center;
+    }
+
+    .heading span {
+        font-size: 15px;
+    }
+
+    #p2 {
+        margin: 20px 0;
+    }
+
+    .profile p {
+        margin: 20px 10px 80px 10px;
+    }
+}

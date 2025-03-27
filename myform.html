@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Form</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kalnia&display=swap');
+
+        body {
+            font-family: "Kalnia";
+            background-color: #313340;
+            color: #fff; /* Change text color to white */
+            margin-top: 15%;
+        }
+
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            background-color: #fff; /* Container background color */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #333; /* Reset text color for container */
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            width: 470%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        #image-container {
+            margin-top: 20px;
+        }
+
+        #image-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        #label {
+            color: #181e35;
+            font-weight: bold;
+            padding-right: 20px;
+        }
+
+        #box {
+            text-align: center;
+        }
+
+        #horBox {
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            align-items: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="color: #181e35; text-align: center;">"GET IMAGE BY ENTERING THE NAME"</h2>
+        <form action="/get_image" method="post">
+            <div id="horBox">
+                <div id="lab">
+                    <label id="label" for="image-name">Enter Image Name:</label><br><br>
+                </div>
+                <div id="txt">
+                    <input type="text" id="image-name" name="image-name" placeholder="e.g., image.jpg" required>
+                </div>
+
+            </div>
+
+            <div id="box">
+                <input type="submit" value="Submit" style="font-family: 'kalnia'; font-weight: bold;">
+            </div>
+           
+        </form>
+        <div id="image-container">
+        </div>
+    </div>
+</body>
+</html>
